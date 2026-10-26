@@ -1,43 +1,53 @@
-# Matplotlib Learning
+# Matplotlib Learning 📊
 
-This repository contains my Matplotlib learning and practice as part of my Data Science roadmap.
+A hands-on repository for learning Python data visualization with **Matplotlib**, from basic charts to subplots and chart customization.
+
+## 📁 Repository Structure
+
+| Folder / File | Purpose |
+|---|---|
+| [`Notes/`](./Notes/) | Learning notes, concepts, and topic checklist |
+| [`Practice/`](./Practice/) | Python examples and chart exercises |
+| [`.gitignore`](./.gitignore) | Files Git should ignore |
 
 ## 📚 Topics Covered
 
-- Line Charts
-- Bar Charts
-- Horizontal Bar Charts
-- Bar Labels
-- Sorted Bar Charts
-- Grouped Bar Charts
-- Pie Charts
-- Pie Chart Percentages
-- Explode and Start Angle
-- Histograms
-- Bins
-- Scatter Plots
-- Markers
-- Point Size and Transparency
-- Subplots
-- Figure Size
-- Tight Layout
-- Titles, Axis Labels, Grids and Legends
+- Line charts, markers, and line styles
+- Vertical and horizontal bar charts
+- Bar labels, sorted bars, and grouped bars
+- Pie charts, percentages, explode, and start angle
+- Histograms, bins, and edge styling
+- Scatter plots, markers, point size, and transparency
+- Subplots, figure size, and tight layout
+- Chart titles, axis labels, grids, and legends
 
-## 🛠️ Libraries Used
+## 🛠️ Tools
 
 - Python
+- Matplotlib
 - NumPy
 - Pandas
-- Matplotlib
+
+## 🚀 Run the Practice Code
+
+1. Install the libraries:
+
+   ```bash
+   pip install matplotlib numpy pandas
+   ```
+
+2. Run the script from the repository root:
+
+   ```bash
+   python Practice/Matplotlib.py
+   ```
+
+The script displays examples one chart at a time using `plt.show()`.
 
 ## 🎯 Learning Goal
 
-The goal of this project is to build a strong foundation in data visualization for Data Science and Machine Learning.
+Build a strong foundation in data visualization for Data Analysis, Data Science, and Machine Learning.
 
-## 📂 Project Structure
+---
 
-```text
-matplotlib-learning/
-│
-├── matplotlib_learning.py
-└── README.md
+This repository is a learning log and portfolio in progress. Topics and examples will grow as I practise.
